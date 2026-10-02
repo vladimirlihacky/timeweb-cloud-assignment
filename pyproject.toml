@@ -1,0 +1,20 @@
+[project]
+name = "timeweb-cloud-assignment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vladimirlihacky", email = "vladimirlihacky@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "black>=24.8.0",
+    "pyright>=1.1.414",
+    "ruff>=0.16.10",
+]
+[project.scripts]
+timeweb-cloud-assignment = "timeweb_cloud_assignment:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
